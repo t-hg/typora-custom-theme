@@ -1,0 +1,42 @@
+div {
+	&#write {
+		margin: 0;
+	}
+}
+
+h1,h2,h3,h4,h5,h6:first-of-type {
+	margin-top: 0;
+}
+
+li {
+	& p {
+		margin: 0; 
+	}
+}
+
+img {
+	border: solid 1px black;
+	margin: 0 !important;
+	max-width: 600px;
+}
+
+pre {
+	&.md-fences {
+		padding: 1em;
+		border: 1px solid #ccc;
+		background-color: #f1f1f1 !important;
+	}
+}
+
+code {
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+span {
+	&.md-image {
+		& .md-meta {
+			display: block !important;
+		}
+	}
+}
