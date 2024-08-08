@@ -40,3 +40,16 @@ span {
 		}
 	}
 }
+
+table {
+	width: max-content;
+
+	& th {
+		background-color: #f1f1f1;
+	}
+
+	& th,td {
+		border: 1px solid #ccc;
+		padding: 0.5em 1em;
+	}
+}
